@@ -334,7 +334,7 @@ const whatsappBtn = document.getElementById("whatsappBtn");
 whatsappBtn.addEventListener("click", () => {
 
   window.open(
-    "https://wa.me/221770000000",
+    "https://wa.me/221763536678",
     "_blank"
   );
 
