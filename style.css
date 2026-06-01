@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 20px;
+}
+
+/* HOVER */
+
+a {
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #d4d4d4;
+}
+
+/* INPUT */
+
+input {
+  outline: none;
+}
+
+/* ANIMATION */
+
+#productContainer div {
+  transition: 0.5s;
+}
+
+#productContainer div:hover {
+  transform: translateY(-10px);
+}
