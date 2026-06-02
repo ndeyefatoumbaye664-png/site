@@ -46,3 +46,28 @@ input {
 #productContainer div:hover {
   transform: translateY(-10px);
 }
+
+#productContainer div {
+  transition: 0.3s;
+}
+
+#productContainer div:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+button {
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.bg-zinc-900 {
+  transition: 0.3s ease;
+}
+
+.bg-zinc-900:hover {
+  transform: translateY(-8px);
+}
